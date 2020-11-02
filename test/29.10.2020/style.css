@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 50px;
+}
+#container{
+    max-width: 1100px;
+    margin: 20px auto;
+}
+header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(109, 209, 226);
+}
+main{
+    height: 600px;
+}
+aside{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background-color: greenyellow;
+}
+section{
+    float: left;
+    width: 70%;
+    height: 600px;
+    background-color: black;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: gold;
+}
+/*pairnei diastaseis sxetika me tin arxiki position*/
+#box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+/*pairnei distaseis se sxesi me ton browser*/
+#kouti{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+/*pairnei diastaseis ama exei o gonios position */
+#koutaki{
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+    position: absolute;
+    top: 20px;
+}
+#sticky{
+    background-color: fuchsia;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top:0;
+}
+nav ul li {
+    color: blue;
+}
+ul > li {
+    background-color: greenyellow;
+}
+div > p {
+    background-color: yellow;
+}
+ul > li {
+    background-color: violet;
+}
+/*allazei aderfia*/
+div ~ p {
+    background-color: teal;
+}
+/*allazei prwto ad3erfo*/
+div + p {
+    background-color: red;
+}

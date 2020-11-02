@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: blueviolet;
+}
+p{
+    color: cornflowerblue;
+}
+#yolo{
+    color: green;
+}
+
+
+a, li {
+    color: lawngreen;
+}

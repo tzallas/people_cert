@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+}
+h1{
+    color: white;
+    background-color: navy;
+    text-align: center;
+    font-family: Verdana;
+}
+p{
+    color: white;
+}
+
+span {
+    color: green;
+}
+#yolo{
+    color: greenyellow;
+}
+#lola{
+    color: silver;
+}
+#sissy{
+    color: aqua;
+}
+#opa, a{
+    background-color: grey;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: silver;
+}
+header{
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+}
+nav{
+    height: 50px;
+    background-color: green;
+}
+main{
+    height: 400px;
+    background-color: brown;
+}
+footer{
+    height: 100px;
+    background-color: tomato;
+}
+section{
+    background-color: pink;
+    height: 400px;
+    width: 40%;
+    /* osa thelw na einai dipla sto allo-epitrepw tin roi parolo pou einai block tag*/
+    float: left;
+}
+aside{
+    background-color: purple;
+    height: 400px;
+    width: 30%;
+    float: left;
+}
+.yolo{
+    background-color: black;
+    height: 400px;
+    width: 30%;
+    float: left;
+}
+.lola{
+    background-color: chartreuse;
+}
+section p {
+    color: blue;
+}
+aside p{
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 10px ;
+    border-top: 2px white solid;
+    border-bottom: 5px green dotted;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26_10_20</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <form method="" action="">
+        <fieldset>
+            <legend>prosopika stoixeia</legend>
+            <input type="text" name="user" placeholder="username" required/> <br/>
+            <input type="email" name="email" placeholder="email" value="lena" readonly/>  <br/>
+            <p>Date of Birht</p>
+            <input type="date"/>
+            <br/>
+            <p> Country:  </p>
+            <select name="country" multiple>
+                <optgroup label="Greece" >
+                    <option>Athens</option>
+                    <option>Thessaloniki</option>
+                    <option>Other</option>
+                </optgroup>
+                <optgroup label="Spain">
+                    <option>Madrid</option>
+                    <option>Barcelona</option>
+                    <option>Bilbao</option></optgroup>
+                <option>France</option>
+                <option>Italy</option>
+            </select>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>protimiseis</legend>
+            <p>Favorites lessons</p>
+            <label><input type="checkbox" name="hobbies" checked/> javascript</label>
+            <label><input type="checkbox" name="hobbies"/> java</label>
+            <label><input type="checkbox" name="hobbies"/> python</label>
+            <label><input type="checkbox" name="hobbies"/> php</label>
+            <p>poso sou aresei i html
+            <input type="range" min="0" max="5"/>
+           </p>
+           <p>dialexe xrwma</p>
+           <input type="color"/>
+            <p>A few thing about you</p>
+            <textarea name="comments" rows="5" cols="30">
+
+            </textarea>
+        </fieldset>
+        <br/>
+        <input type="submit"  value="Sign Up"/>
+    </form>
+</body>
+</html>
